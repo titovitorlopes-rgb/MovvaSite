@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOVVA - Planos e Preços</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="pricing-page-body">
+
+  <!-- Fixed Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html#home" class="brand-logo" aria-label="MOVVA Home">
+        <img src="logo.png" alt="MOVVA" class="logo-image">
+      </a>
+
+      <nav class="nav-menu" aria-label="Navegação Principal">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="servicos.html" class="nav-link">Serviços</a>
+        <a href="index.html#portfolio" class="nav-link">Portfólio</a>
+        <a href="index.html#sobre" class="nav-link">Sobre</a>
+        <a href="precos.html" class="nav-link active">Preços</a>
+        <a href="index.html#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="nav-action">
+        <a href="https://wa.me/5519998511181?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20sobre%20um%20projeto%20com%20a%20MOVVA" target="_blank" class="btn-talk btn-talk-pricing">
+          <span>Vamos Conversar</span>
+          <svg class="arrow-svg" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" aria-label="Abrir Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       PRICING PAGE (#precos)
+       Mountain landscape with transparent high-quality pricing cards
+       and white bottom wave with guarantees - Exactly matching ComoDeveFicar.png
+       ========================================================================= -->
+  <main id="precos" class="pricing-hero">
+    <!-- Mountain Background -->
+    <div class="pricing-bg-wrapper">
+      <img src="background.png" alt="Cenário Montanhas MOVVA" class="pricing-bg-media pricing-bg-image" fetchpriority="high">
+    </div>
+
+    <!-- White Wave Snow Layer at Bottom -->
+    <div class="pricing-wave-layer" aria-hidden="true">
+      <img src="pricing_wave.svg" alt="" class="pricing-wave-img">
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="pricing-content-wrapper visible">
+      
+      <!-- Top Hero Header / Texts -->
+      <div class="pricing-hero-header">
+        <div class="pricing-hero-left">
+          <div class="pricing-kicker">PLANOS E PREÇOS</div>
+          <h1 class="pricing-title">
+            <span>Transforme sua ideia</span>
+            <span>em um projeto real.</span>
+          </h1>
+          <div class="pricing-subtitles-row">
+            <p class="pricing-sub-col">
+              Oferecemos soluções digitais completas para o seu negócio, com design moderno, performance e foco em resultados. Tudo isso com o cuidado de <strong>designers profissionais</strong>.
+            </p>
+            <div class="pricing-sub-divider" aria-hidden="true"></div>
+            <p class="pricing-sub-col">
+              Todos os projetos são desenvolvidos por <strong>designers profissionais</strong>, garantindo um resultado único, moderno e de alta qualidade.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Pricing Cards (Separate Transparent PNGs) -->
+      <div class="pricing-cards-container">
+        <!-- Card 1: Landing Page -->
+        <div class="pricing-card-col">
+          <a href="https://wa.me/5519998511181?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20plano%20Landing%20Page" target="_blank" class="pricing-card-link" aria-label="Plano Landing Page - $200 ou R$ 500">
+            <img src="card_landing_page.png" alt="Landing Page - $200 ou R$ 500" class="pricing-card-img" draggable="false">
+          </a>
+        </div>
+
+        <!-- Card 2: Site (Featured / Popular) -->
+        <div class="pricing-card-col popular-card">
+          <a href="https://wa.me/5519998511181?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20plano%20Site" target="_blank" class="pricing-card-link" aria-label="Plano Site - $350 ou R$ 968 (Destaque)">
+            <img src="card_site.png" alt="Site - $350 ou R$ 968" class="pricing-card-img" draggable="false">
+          </a>
+        </div>
+
+        <!-- Card 3: E-commerce -->
+        <div class="pricing-card-col">
+          <a href="https://wa.me/5519998511181?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20plano%20E-commerce" target="_blank" class="pricing-card-link" aria-label="Plano E-commerce - $900 ou R$ 1.600">
+            <img src="card_ecommerce.png" alt="E-commerce - $900 ou R$ 1.600" class="pricing-card-img" draggable="false">
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom Guarantee / Benefits Bar (On the white terrain) -->
+      <div class="pricing-bottom-benefits">
+        <div class="benefit-item">
+          <h4 class="benefit-title">Entrega rápida</h4>
+          <p class="benefit-desc">Seu projeto no prazo</p>
+        </div>
+        <div class="benefit-divider" aria-hidden="true"></div>
+        <div class="benefit-item">
+          <h4 class="benefit-title">Segurança total</h4>
+          <p class="benefit-desc">Seus dados protegidos</p>
+        </div>
+        <div class="benefit-divider" aria-hidden="true"></div>
+        <div class="benefit-item">
+          <h4 class="benefit-title">Suporte especializado</h4>
+          <p class="benefit-desc">Sempre que precisar</p>
+        </div>
+        <div class="benefit-divider" aria-hidden="true"></div>
+        <div class="benefit-item">
+          <h4 class="benefit-title">Qualidade garantida</h4>
+          <p class="benefit-desc">Seu sucesso é a nossa meta</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="animations.js"></script>
+</body>
+</html>
